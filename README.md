@@ -44,7 +44,7 @@ Esses indicadores permitem ao motorista avaliar a viabilidade econômica da ativ
 1. Clone o repositório
 
 ```bash
-git clone https://github.com/sophiavantil/pipeline-motoristas-app.git
+git clone [https://github.com/sophiavantil/pipeline-motoristas-app.git](https://github.com/sophiavantil/pipeline_motorista.git)
 ```
 
 2. Instale as dependências
@@ -56,9 +56,9 @@ pip install -r requirements.txt
 3. Execute as etapas do pipeline
 
 ```bash
-python src/extract.py
-python src/transform.py
-python src/indicators.py
+python scr/extract.py
+python scr/transform.py
+python scr/indicators.py
 ```
 
 4. Consulte o relatório gerado em:
